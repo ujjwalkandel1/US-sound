@@ -12,7 +12,7 @@ const JoinUs = () => {
           <p className="text-gray-700 mt-2 max-w-lg">
             In egestas erat imperdiet sed euismod nisi. Trincidunt augue interdum velit
             euismod in pellentesque massa placerat. Amet nisl purus in mollis nunc sed 
-            usce id velit ut.
+            usce id velit ut. I am ujjwal kandel
           </p>
         </div>
 
