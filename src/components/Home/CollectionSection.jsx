@@ -20,7 +20,7 @@ const collections = [
 
 const CollectionSection = () => {
   return (
-    <div className="w-[1197px] mx-auto flex justify-between gap-[19px] mt-[40px]">
+    <div className="w-[1197px] mx-16 flex justify-between gap-[19px] mt-[50px]">
       {collections.map((item, index) => (
         <div
           key={index}
@@ -41,6 +41,7 @@ const CollectionSection = () => {
           </div>
         </div>
       ))}
+  
     </div>
   );
 };

@@ -3,13 +3,13 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-20 w-[1478px]">
-      <div className="container mx-auto px-10">
+    <footer className="bg-black text-white py-20 w-[1333px] mt-130">
+      <div className="container mx-auto px-10  ">
         
-        <div className="flex flex-col md:flex-row justify-between items-start gap-10">
+        <div className="flex flex-col md:flex-row justify-between items-start gap-16">
           
           
-          <div className="w-full md:w-1/4">
+          <div className="w-full md:w-1/3">
             <h2 className="text-lg font-semibold">LOGO</h2>
             <p className="mt-2 text-sm text-gray-400">
               US Sound & Lights provides professional audio and lighting
@@ -40,7 +40,7 @@ const Footer = () => {
 
           
           <div className="w-full md:w-1/4">
-            <h2 className="text-lg font-semibold">Follow Us</h2>
+            <h2 className="text-lg font-semibold flex">Follow Us</h2>
             <div className="flex space-x-4 mt-2">
               <FaFacebookF className="text-xl cursor-pointer hover:text-gray-400" />
               <FaTwitter className="text-xl cursor-pointer hover:text-gray-400" />
