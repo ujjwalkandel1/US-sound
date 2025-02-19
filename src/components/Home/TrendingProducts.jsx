@@ -55,7 +55,7 @@ const  products = [
 
 const TendingProducts = () => {
   return (
-    <section className="w-[1201px] mx-auto grid grid-cols-3 gap-[16px] mt-[5px]">
+    <section className="w-[1201px] mx-auto grid grid-cols-3 gap-[16px] mt-[5px] mb-[20px]">
       {products.map((product) => (
         <div
           key={product.id}

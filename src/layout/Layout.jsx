@@ -1,13 +1,21 @@
 import React from 'react'
-import Header from '../pages/Header'
-import Footer from '../pages/Footer'
+import Header from './Header'
+import Footer from './Footer'
+import Home from '../pages/Home'
+import Shops from '../pages/Shops'
+import Rental from '../pages/Rental'
+import Aboutus from '../pages/Aboutus'
+
 
 const Layout = () => {
   return (
 <>
-<Header/> 
-
-<Footer/>
+<Header />
+{/* <Home /> */}
+{/* <Shops /> */}
+{/* <Rental /> */}
+<Aboutus />
+<Footer />
 </>
 
 )

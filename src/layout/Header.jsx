@@ -6,7 +6,7 @@ const Header = () => {
       <div className="w-[90%] flex justify-between items-center">
         {/* Left Side: Navigation Links */}
         <div className="flex space-x-8 text-sm font-semibold">
-          <a href="#" className="text-gray-700 hover:text-blue-500">HOME</a>
+          <a href="Home" className="text-gray-700 hover:text-blue-500">HOME</a>
           <a href="#" className="text-gray-700 hover:text-blue-500">SHOP</a>
           <a href="#" className="text-gray-700 hover:text-blue-500">RENTAL</a>
         </div>

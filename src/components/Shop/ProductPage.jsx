@@ -55,9 +55,9 @@ const ProductGrid = () => {
       {products.map((product) => (
         <div
           key={product.id}
-          className="w-[286px] h-[507px] p-[20px_10px] border shadow-md flex flex-col items-center gap-3"
+          className="w-[286px] h-[507px] p-[20px_10px] border shadow-md flex flex-col items-center gap-8"
         >
-          <img src={product.image} alt={product.name} className="w-full h-[70%] object-cover" />
+          <img src={product.image} alt={product.name} className="w-[266px] h-[] object-cover" />
           <h3 className="text-lg font-semibold mt-2">{product.name}</h3>
           <div className="flex items-start gap-5"> 
           <p className="text-gray-500 line-through">Rs {product.oldPrice}</p>
