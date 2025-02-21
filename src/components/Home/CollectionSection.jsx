@@ -20,11 +20,11 @@ const collections = [
 
 const CollectionSection = () => {
   return (
-    <div className="w-[1197px] mx-16 flex justify-between gap-[19px] mt-[50px]">
+    <div className="w-full max-w-[1333px] mx-auto flex flex-wrap justify-center gap-4 md:gap-[19px] mt-[50px] px-4">
       {collections.map((item, index) => (
         <div
           key={index}
-          className="w-[346px] h-[220px] bg-[#EFFFFA] rounded-lg flex flex-col justify-between p-5"
+          className="w-full sm:w-[300px] md:w-[346px] h-[220px] bg-[#EFFFFA] rounded-lg flex flex-col justify-between p-5"
         >
           {/* Text Section */}
           <div>
@@ -41,7 +41,6 @@ const CollectionSection = () => {
           </div>
         </div>
       ))}
-  
     </div>
   );
 };

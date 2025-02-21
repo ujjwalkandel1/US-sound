@@ -5,16 +5,14 @@ import Home from '../pages/Home'
 import Shops from '../pages/Shops'
 import Rental from '../pages/Rental'
 import Aboutus from '../pages/Aboutus'
+import Router from '../routers/Router'
 
 
 const Layout = () => {
   return (
 <>
 <Header />
-{/* <Home /> */}
-{/* <Shops /> */}
-{/* <Rental /> */}
-<Aboutus />
+<Router/>
 <Footer />
 </>
 

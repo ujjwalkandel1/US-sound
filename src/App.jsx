@@ -1,15 +1,8 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react'
 import Layout from './layout/Layout'
 
-
-function App() {
-
-  return (
-    <div>
-     <Layout/>
-    </div>
-  )
+const App = () => {
+  return <Layout/>
 }
 
 export default App

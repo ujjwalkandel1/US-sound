@@ -3,11 +3,10 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-20 w-[1333px]">
-      <div className="container mx-auto px-10  ">
+    <footer className="bg-black text-white py-20 w-full px-4 text-center">
+      <div className="container max-w-[1333px] mx-auto px-6">
         
-        <div className="flex flex-col md:flex-row justify-between items-start gap-16">
-          
+        <div className="flex flex-col items-center md:flex-row md:items-start md:justify-between gap-10 md:gap-16">
           
           <div className="w-full md:w-1/3">
             <h2 className="text-lg font-semibold">LOGO</h2>
@@ -27,7 +26,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          
           <div className="w-full md:w-1/4">
             <h2 className="text-lg font-semibold">Contact</h2>
             <ul className="mt-2 text-sm text-gray-400 space-y-2">
@@ -38,23 +36,19 @@ const Footer = () => {
             </ul>
           </div>
 
-          
           <div className="w-full md:w-1/4">
-            <h2 className="text-lg font-semibold flex">Follow Us</h2>
-            <div className="flex space-x-4 mt-2">
+            <h2 className="text-lg font-semibold">Follow Us</h2>
+            <div className="flex justify-center space-x-4 mt-2">
               <FaFacebookF className="text-xl cursor-pointer hover:text-gray-400" />
               <FaTwitter className="text-xl cursor-pointer hover:text-gray-400" />
               <FaInstagram className="text-xl cursor-pointer hover:text-gray-400" />
               <FaYoutube className="text-xl cursor-pointer hover:text-gray-400" />
             </div>
           </div>
-
         </div>
 
-        
         <hr className="my-6 border-gray-600" />
 
-        
         <p className="text-center text-gray-400 text-sm">
           © 2023 US Sound & Lights. All rights reserved.
         </p>
