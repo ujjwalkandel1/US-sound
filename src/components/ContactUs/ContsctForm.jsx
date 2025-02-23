@@ -35,7 +35,7 @@ const ContactForm = () => {
       </div>
 
       
-      <div className="flex-1 bg-white shadow-lg rounded-lg p-6">
+      <div className="flex-1 bg-white shadow-lg rounded-lg p-6 h-auto">
         <form className="space-y-4">
           <div className="grid w-[385px] grid-cols-1 md:grid-cols-2 gap-4">
             <div>
@@ -71,5 +71,5 @@ const ContactForm = () => {
     </div>
   );
 };
-
+                            
 export default ContactForm;

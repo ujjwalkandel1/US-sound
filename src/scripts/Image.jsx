@@ -12,6 +12,7 @@ import logo10 from '../assets/ledscreenp1.png'
 import logo11 from '../assets/ledscreenp2.png'
 import Image22 from '../assets/Image22.png'
 import logo111 from '../assets/image111.jpeg'
+import logo12 from '../assets/Image12.png'
 
 
 export {
@@ -28,7 +29,8 @@ export {
     logo10,
     logo11,
     Image22,
-    logo111
+    logo111,
+    logo12
     
 }
 
